@@ -1,6 +1,6 @@
 // this is 2 times slow than php version ??????????
 let start = Date.now();
-// let mmm=new Map();
+// let mmm=new Map(); //this is more efficent, but still slower than php's array
 let obj = [];
 
 for (var i=0; i < 1000000; i++) {
