@@ -32,7 +32,7 @@ async function main() {
 	console.log(`${fname} ${s.substr(0,1)}\n`);
 	console.log(`the string length:: ${ss.length}\n`);
 
-	console.log(`${new Date().getTime() - starttime}ms`);
+	console.log(`consumed time:: ${new Date().getTime() - starttime}ms\n`);
 }
 
 main();

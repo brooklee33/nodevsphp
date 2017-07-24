@@ -9,4 +9,4 @@ for (var i=0; i < 1000000; i++) {
 	// mmm.set(i + '_' + time, time);
 }
 
-console.log((Date.now() - start)/1000);
+console.log(`\nconsumed time:: ${Date.now() - start}ms\n`);

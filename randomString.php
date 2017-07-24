@@ -30,7 +30,7 @@ function main () {
 
 	$endtime = microtime(true)*1000;
 
-	echo "used time:: ".intval(($endtime - $starttime))."ms\n\n";
+	echo "consumed time:: ".intval(($endtime - $starttime))."ms\n\n";
 
 
 }

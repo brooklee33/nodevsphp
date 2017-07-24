@@ -17,6 +17,7 @@ for ($c=0;$c<100000;$c++) {
 	}
 }
 
-echo intval((microtime(true)*1000) - $starttime).'ms';
+//print_r($array);
 echo "\n";
-print_r($array);
+
+echo 'consumed time:: '.intval((microtime(true)*1000) - $starttime)."ms\n\n";

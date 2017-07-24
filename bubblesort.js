@@ -18,5 +18,7 @@ for (var c = 0; c < 100000; c++) {
     }
 }
 
-console.log(`${new Date().getTime() - starttime}ms`);
-console.log(array);
+//console.log(array);
+console.log();
+
+console.log(`consumed time:: ${new Date().getTime() - starttime}ms\n`);
