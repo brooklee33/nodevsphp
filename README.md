@@ -1,5 +1,7 @@
 ## Node vs PHP misc performace test
 ## Test result
+
+``` bash
 ---------------------------
 $time node bubblesort.js
 
@@ -9,9 +11,10 @@ real    0m0.569s
 user    0m0.541s
 sys     0m0.022s
 
+---------
+
 $time php bubblesort.php
 
----------
 
 consumed time:: 2731ms
 
@@ -139,4 +142,5 @@ consumed time:: 124ms
 real    0m0.754s
 user    0m0.726s
 sys     0m0.019s
-----------------------------
+
+```bash
