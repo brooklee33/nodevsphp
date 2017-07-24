@@ -1,5 +1,5 @@
 ## Node vs PHP misc performace test
-## Test result
+## Test result(Node 8.2; PHP 7.1.7)
 
 ``` bash
 ---------------------------
