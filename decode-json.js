@@ -1,4 +1,4 @@
-//node8.1 about 35% slower than php7.1 version
+//node8.1 is almost the same as php7.1 version
 
 function getJsonArr(num){
 	let ja = [];
@@ -13,7 +13,9 @@ function getJsonArr(num){
 		o.name = String.fromCharCode(n1) + String.fromCharCode(n2)+
 				 String.fromCharCode(n3) + String.fromCharCode(n4)+
 				 String.fromCharCode(n5);
-		o.age = Math.random()*100;
+		// o.age = Math.random()*100;
+		// parseInt will affect the performance significantly
+		o.age = parseInt(Math.random()*100);
 		ja.push(o);
 	}
 

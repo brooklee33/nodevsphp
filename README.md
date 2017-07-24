@@ -26,12 +26,11 @@ sys     0m0.005s
 ----------------------------
 $ time node decode-json.js
 
-consumed time:: 109ms
+consumed time:: 74ms
 
-
-real    0m0.549s
-user    0m0.405s
-sys     0m0.140s
+real    0m0.464s
+user    0m0.421s
+sys     0m0.039s
 
 ---------
 
@@ -47,22 +46,21 @@ sys     0m0.040s
 ----------------------------
 $ time node encode-json.js
 
-consumed time:: 55ms
+consumed time:: 24ms
 
-
-real    0m0.430s
-user    0m0.338s
-sys     0m0.088s
+real    0m0.395s
+user    0m0.366s
+sys     0m0.024s
 
 ---------
+
 $ time php encode-json.php
 
-consumed time:: 18ms
+consumed time:: 16ms
 
-
-real    0m0.151s
-user    0m0.111s
-sys     0m0.035s
+real    0m0.127s
+user    0m0.117s
+sys     0m0.007s
 
 ----------------------------
 $ time node hash.js
