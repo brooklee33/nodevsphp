@@ -31,7 +31,7 @@ function jsonDecode(js) {
 }
 
 
-let ja = getJsonArr(100000);
+let ja = getJsonArr(1000000);
 console.log(ja[0]);
 let js = jsonEncode(ja);
 

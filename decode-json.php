@@ -1,4 +1,5 @@
 <?php
+//Under Linux, it is a litte faster, but it will take huage memory!
 function getJsonArr($num){
 	$ja = [];
 	while($num--) {
@@ -18,7 +19,7 @@ function jsonDecode($js) {
 	return json_decode($js);
 }
 
-$jaa = getJsonArr(100000);
+$jaa = getJsonArr(1000000);
 print_r($jaa[0]); echo "\n";
 $jss = jsonEncode($jaa);
 

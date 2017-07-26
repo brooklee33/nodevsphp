@@ -27,7 +27,7 @@ function jsonEncode(ja) {
 }
 
 
-let ja = getJsonArr(100000);
+let ja = getJsonArr(1000000);
 // console.log(ja);
 
 let start = Date.now();

@@ -14,7 +14,7 @@ function jsonEncode($ja) {
 	return json_encode($ja);
 }
 
-$jaArr = getJsonArr(100000);
+$jaArr = getJsonArr(1000000);
 // print_r($jaArr); echo "\n";
 
 $start = microtime(true)*1000;
